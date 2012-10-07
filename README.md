@@ -1,7 +1,7 @@
 simpley-theme
 =============
 
-simpley is a very simple open source wordpress theme.
+simpley is a very simple responsive open source wordpress theme.
 
 ## Demo
 
