@@ -1,0 +1,199 @@
+!/*
+Theme Name: smplr
+Theme URI: http://github.com/
+Description: simpley is a very simple open source wordpress theme.
+Author: Din Bisevac
+Author URI: http://dinbisevac.de/
+Version: 1.0
+Tags: html5, css3
+*/
+
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Standard */
+
+html {
+	margin: 0 !important;
+	padding: 0;
+	}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+/* Headline */
+	
+h1 {
+	margin: 50px 0;
+	font-size: 35px;
+	font-weight: 200;
+	line-height: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8C8C8C:
+	border-bottom: 1px solid #DADADA;
+}
+
+/* Header */
+
+header {
+	background: white;
+}
+
+	header a {
+		color: #000000;
+	}
+	
+	header a:hover {
+		color: #808080;
+	}
+	
+	.header_container {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.description {
+		color: #808080;
+	}
+
+/* Content */
+
+.content {
+	width: 600px;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+}
+
+/* Article */
+
+article {
+	font-size: 14px;
+}
+	
+	article h2 {
+		font-size: 25px;
+		font-weight: 200;
+	}
+	
+	article ul {
+		font-size: 14px;
+		color: #777;
+	}
+	
+		article ul li {
+			line-height: 25px;
+		}
+	
+	article img {
+		height: auto;
+		max-width: 600px;
+	}
+	
+	article blockquote {
+		padding: 5px 20px 5px 20px;
+		margin: 0;
+		background: #FAFAFA;
+	}
+	
+	article p {
+		font-size: 14px;
+		line-height: 26px;
+		color: #777;
+	}	
+
+	article a {
+		text-decoration: none;
+		color: black;
+	}
+
+/* Pagebar */
+
+.pagebar 
+	{ 
+		margin: 45px 16px 75px; 
+        -webkit-transition: 0.1s linear;
+        -webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	.pagebar a, .pageList .this-page {
+		padding: 5px 9px 5px 9px;
+		font-weight: normal;
+		font-size: 12px;
+		color: black;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	.pagebar a:visited {
+		padding: 5px 9px 5px 9px;
+		font-weight: normal;
+		font-size: 12px;
+		color: black;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	.pagebar .break {
+		padding: 2px 6px 3px; 
+    	margin-right: 4px;
+        background: transparent; 
+		text-decoration: none;
+	}
+
+	.pagebar .this-page {
+		padding: 5px 9px 5px 9px;
+		font-weight: 600;
+		font-size: 14px;
+		color: black;
+		background: none;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	
+	.pagebar a:hover {
+		color: #000; 
+		background: #F0F0F0; 
+		border-color: #d0d0d0; 
+		text-decoration: none;
+	}
+	
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+	
+	.header_container {
+		width: 300px;
+		margin: 0 auto;
+	}
+	
+	.content {
+		width: 300px;
+		margin: 0 auto;
+	}
+	
+	article {
+		width: 300px;
+	}
+	
+	article img {
+		width: 100%;
+	}
+	
+}
