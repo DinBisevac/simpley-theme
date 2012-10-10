@@ -1,7 +1,7 @@
 <?php
-if (function_exists('postbar'))
-        postbar();
-?>
 
+	wp_footer();
+
+?>
 	</body>
 </html>
