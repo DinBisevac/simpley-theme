@@ -1,6 +1,7 @@
 <?php
 
 	get_header();
+	
 ?>
  	
  	<section class="content">
@@ -31,3 +32,8 @@
         ?> 
     </center>
 
+<?php
+
+	get_footer();
+	
+?>

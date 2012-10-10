@@ -12,7 +12,6 @@
 				<h2><?php the_title(); ?></h2>
 				
 				<?php the_content(); ?>
-				<?php if ( function_exists('recommendationcount_quotefm')) ?>
 			</article>
 	
 		<?php endwhile; else: ?>
@@ -22,3 +21,9 @@
 		<?php endif; ?>
 	
 	</section> 
+
+<?php
+
+	get_footer();
+	
+?>
