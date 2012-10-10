@@ -16,4 +16,8 @@ You can see it live at http://h.dinb.org/labs/.
 For the pagebar you need the pagebar plugin.
 Download it here: http://wordpress.org/extend/plugins/pagebar/
 
+## Coming soon
+
+• Comments
+
 <3
