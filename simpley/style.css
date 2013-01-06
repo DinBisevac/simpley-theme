@@ -182,6 +182,7 @@ article {
 
 #submit {
 	padding: 15px 12px;
+	max-width: 600px;
 	width: 100%;
 	background: #c55b4f;
 	font-size: 14px;
@@ -305,6 +306,18 @@ article {
 	
 	article img {
 		width: 100%;
+	}
+	
+	.input {
+		width: 300px;
+	}
+	
+	.comment-textarea {
+		width: 300px;
+	}
+
+	#submit {
+		width: 300px;
 	}
 	
 }
