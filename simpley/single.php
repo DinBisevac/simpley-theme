@@ -13,17 +13,18 @@
 				
 				<?php the_content(); ?>
 			</article>
-	
+			
 		<?php endwhile; else: ?>
 		
 			<h2>Dieser Post wurde nicht gefunden.</h2>
 			
 		<?php endif; ?>
-	
+		
+		<?php comments_template(); ?>
+		
 	</section> 
-
 <?php
 
 	get_footer();
-	
+
 ?>

@@ -1,11 +1,11 @@
-/*
-Theme Name: simpley
-Theme URI: https://github.com/DinBisevac/simpley-theme
+!/*
+Theme Name: smplr
+Theme URI: http://github.com/
 Description: simpley is a very simple open source wordpress theme.
 Author: Din Bisevac
 Author URI: http://dinbisevac.de/
 Version: 1.0
-Tags: html5, css3, light, white, one-column, flexible-width
+Tags: html5, css3
 */
 
 /* Fonts */
@@ -34,7 +34,18 @@ h1 {
 	line-height: 0;
 }
 
+.light-h3 {
+	font-size: 25px;
+	line-height: 5;
+	font-weight: 200;
+	color: #777;
+	text-align: center;
+}
+
 a {
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
 	color: black;
 	text-decoration: none;
 }
@@ -115,6 +126,106 @@ article {
 	article a {
 		text-decoration: none;
 		color: black;
+	}
+	
+	article a:hover {
+		color: #808080;
+	}
+
+/* Comments */
+
+.comment-body {
+	margin: 0 0 60px 0;
+}
+
+.comment-body p {
+	color: #777;
+}
+
+.approve {
+	font-style: italic;
+	color: #777;
+}
+
+.author {
+	margin: 0;
+	line-height: 0;
+	font-weight: 600;
+	color: black !important;
+}
+
+	.author a {
+		color: black;
+	}
+
+.comment-date {
+	margin: 0;
+	font-style: italic;
+	color: #777;
+}
+
+.edit a {
+	padding: 5px 15px 5px 15px;
+	background: #FAFAFA;
+	font-size: 13px;
+	color: #777;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+	.edit a:hover {
+		background: #ececec;
+	}
+
+/* Comment Form */
+
+#submit {
+	padding: 15px 12px;
+	width: 100%;
+	background: #c55b4f;
+	font-size: 14px;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+	-moz-border-radius: all 0.1s linear;
+}
+
+	#submit:hover {
+		background: #af4e42;
+	}
+
+.comment-textarea {
+	padding: 12;
+	width: 100%;
+	border: 1px solid #DADADA;
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+	-moz-border-radius: all 0.1s linear;
+}
+
+	.comment-textarea:focus {
+		border: 1px solid #A4A4A4;
+		outline: none;
+	}
+
+.input {
+	margin: 0 0 15px 0;
+	padding: 12px;
+	width: 100%;
+	border: 1px solid #DADADA;
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+	-moz-border-radius: all 0.1s linear;
+}
+
+	.input:focus {
+		border: 1px solid #A4A4A4;
+		outline: none;
 	}
 
 /* Pagebar */
