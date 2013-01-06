@@ -18,6 +18,6 @@ Download it here: http://wordpress.org/extend/plugins/pagebar/
 
 ## Coming soon
 
-• Comments
+• Comments (Added)
 
 <3
