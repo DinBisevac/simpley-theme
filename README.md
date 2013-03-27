@@ -19,5 +19,6 @@ Download it here: http://wordpress.org/extend/plugins/pagebar/
 ## Coming soon
 
 • Comments (Added)
+• Sidebar
 
 <3
